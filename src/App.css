@@ -1,10 +1,10 @@
 .grid-container {
-  /*decided to use a 4x4 gird for this exercise*/
 
-
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 5%;
+  border-radius: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 3%;
+  margin-top: 5%;
   background-color: rgb(144, 223, 187);
 
   display: grid;
@@ -13,22 +13,52 @@
   gap: 5%; /* Adjust the gap between grid items as needed */
 }
 
+/* Adjust the grid layout for medium screens */
+@media (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+    grid-template-rows: repeat(4, 1fr); /* Adjust rows as needed */
+  }
+}
 
+/* Adjust the grid layout for small screens */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for small screens */
+    grid-template-rows: repeat(4, 1fr); /* Adjust rows as needed */
+  }
+}
+
+/* Adjust the grid layout for extra small screens */
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* 1 column for extra small screens */
+    grid-template-rows: repeat(4, 1fr); /* Adjust rows as needed */
+  }
+}
 
 /*For now I will add the CSS for the footer and the header here latter I might create an individual CSS file for each component.*/
 
 header {
-
-  background-color:rgb(27, 194, 118);
+  border-radius: 1%;
+  background-color: rgb(27, 194, 118);
   padding: 2%;
+  display:inline-flexbox;
+  
+  flex-direction: column;
+  
+
+  
 }
 
-body{
+body {
+  max-width: 100%;
+  overflow-x: hidden;
   padding: 0;
   margin: 0;
 }
 
-footer{
+footer {
   text-align: center;
 
   margin-top: auto;
