@@ -1,17 +1,18 @@
 import React from "react";
+import './Card.css';
 
 function Card(props) {
   return (
-    <div className="container">
-      <div className="grid-item">
-        <div className="card-body">
+    
+      
+        <div className="card">
           <h2>{props.name}</h2>
           <img src={props.img}></img>
-          <p>{props.tel}</p>
-          <p>{props.email}</p>
+          <p>Phone: {props.phone}</p>
+          <p>Email: {props.email}</p>
         </div>
-      </div>
-    </div>
+      
+    
   );
 }
 

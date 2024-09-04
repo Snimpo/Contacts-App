@@ -1,14 +1,37 @@
-.card-body {
+.grid-container {
+  /*decided to use a 4x4 gird for this exercise*/
 
 
-  height: 300px;
-  width: 300px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  background-color: rgb(144, 223, 187);
 
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 5%; /* Adjust the gap between grid items as needed */
 }
 
-img{
-  height: 200px;
-  width: 200px;
+
+
+/*For now I will add the CSS for the footer and the header here latter I might create an individual CSS file for each component.*/
+
+header {
+
+  background-color:rgb(27, 194, 118);
+  padding: 2%;
 }
 
+body{
+  padding: 0;
+  margin: 0;
+}
+
+footer{
+  text-align: center;
+
+  margin-top: auto;
+  height: 50px;
+  background-color: rgb(0, 125, 68);
+}
