@@ -11,13 +11,12 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr auto;
   gap: 5%; /* Adjust the gap between grid items as needed */
-   /* Adjust the height to ensure it doesn't overlap the footer */
+  /* Adjust the height to ensure it doesn't overlap the footer */
 }
 
 /* Adjust the grid layout for medium screens */
 @media (max-width: 1024px) {
   .grid-container {
-    
     grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
     grid-template-rows: repeat(4, 1fr); /* Adjust rows as needed */
   }
@@ -45,12 +44,9 @@ header {
   border-radius: 1%;
   background-color: rgb(27, 194, 118);
   padding: 2%;
-  display:inline-flexbox;
-  
-  flex-direction: column;
-  
+  display: inline-flexbox;
 
-  
+  flex-direction: column;
 }
 
 body {
@@ -70,10 +66,7 @@ footer {
   background-color: rgb(0, 125, 68);
 }
 
-
 .grid-item {
- 
- 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
   overflow: hidden; /* Prevent content from overflowing */
   box-sizing: border-box; /* Include padding and border in the element's total width and height */

@@ -6,7 +6,7 @@
   width: 100%; /* Make the card width flexible */
   height: 100%; /* Make the card height flexible */
   height: 325px;
-  width: 300px;
+  width: 250px;
   text-align: center;
   padding: 20px; /* Add padding for better spacing */
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
@@ -14,11 +14,9 @@
   flex-direction: column;
   justify-content: center; /* Center content vertically */
   align-items: center;
-  
 }
 
 img {
-  
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -26,12 +24,9 @@ img {
 }
 
 .card-content {
-    
-
   flex-grow: 1; /* Allow content to grow and take up more space */
   display: flex;
   flex-direction: column;
   justify-content: center; /* Center content vertically */
   align-items: center; /* Center content horizontally */
- 
 }
