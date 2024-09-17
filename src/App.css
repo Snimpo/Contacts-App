@@ -67,7 +67,8 @@ footer {
 }
 
 .grid-item {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+  padding: 0;
+  
   overflow: hidden; /* Prevent content from overflowing */
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }

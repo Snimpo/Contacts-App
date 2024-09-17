@@ -3,12 +3,11 @@
   border: 1px solid #ccc;
   border-radius: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 100%; /* Make the card width flexible */
-  height: 100%; /* Make the card height flexible */
-  height: 325px;
+  
+  height: 480px;
   width: 250px;
   text-align: center;
-  padding: 20px; /* Add padding for better spacing */
+  
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
   display: flex;
   flex-direction: column;
