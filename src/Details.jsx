@@ -1,11 +1,11 @@
 import React from "react";
 
 function Details(props) {
-  return;
-  <>
+  return(
+  
     <p>Phone: {props.detailsInfo}</p>
-    
-  </>;
+)
+  
 }
 
 export default Details;
