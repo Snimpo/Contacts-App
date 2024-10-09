@@ -16,6 +16,14 @@ const GridLayout = () => {
       </div>
       <div className="grid-item">
         <Card
+          name="Beyonce"
+          img="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
+          phone="+123 456 789"
+          email="b@beyonce.com"
+        />
+      </div>
+      <div className="grid-item">
+        <Card
           name="Jack Bauer"
           img="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Kiefer_Sutherland_at_24_Redemption_premiere_1_%28headshot%29.jpg/800px-Kiefer_Sutherland_at_24_Redemption_premiere_1_%28headshot%29.jpg"
           phone="+987 654 321"
