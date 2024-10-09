@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import contacts from "./contacts"
+//On this new branch the I will be using the  map method to dynamically update the cards on the website
 
 function createCard(contact) {
   return (
